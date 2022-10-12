@@ -1,0 +1,171 @@
+body {
+    background: rgb(121, 138, 138);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(img/Banco\ online\ \(4\).png);
+    background-size: cover;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #4ecda7;
+    padding: 200px 0px 0px 0px;
+    font-size: 55px;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    padding: 0px;
+    text-transform: serif;
+}
+
+.menu{
+    overflow: hidden;
+    background-color: #4ecda7;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 140px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.aside {
+    border: 1px solid black;
+    background-color: #4ecda7;
+    margin: 10px 1130px 30px 0px;
+    border-radius: 8px;
+}
+section{
+    width: 400px;
+    height: 750px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}article h2{
+color: black;
+}
+article{
+    width: 420px;
+    height: 390px;
+    background: #4ecda7;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: courrier;
+    font-size: 15px;
+    color: black;
+    }
+.parrafo1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    bottom: 270px;
+    border-radius: 8px;
+    border: 1px solid black;
+    
+}
+.parrafo2{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        text-align: center;
+        margin-right: 600px;
+        position: relative;
+        bottom: 680px;
+    border-radius: 8px;
+    border: 1px solid black;
+    }
+.parrafo3{  
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;   
+}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <header>
+        <h1>BANCO ONLINE</h1>
+        <h2>Helps you achieve your goals</h2>
+    </header>
+
+    <div class="menu">
+        <a href="#">Creditos</a>
+        <a href="#">Leasing</a>
+        <a href="#">Ahorros</a>
+        <a href="#">Servicio al cliente</a>
+    </div>
+
+    <aside class="aside">
+
+        <h3>INGRESA TU CUENTA</h3><br>
+        <form action="/action_page.php" autocomplete="on">
+            <label for="Cuenta">Cuenta:</label>
+            <input type="url" id="Cuenta" name="Cuenta" placeholder="Numero de cuenta"><br><br>
+            <label for="tipo">tipo:</label>
+            <input type="text" id="tipo" name="tipo"><br><br>
+            <label for="Clave">Clave:</label>
+            <input type="password" id="Clave" name="Clave" placeholder="Ingrese Nombre"><br><br>
+            <center><input type="submit" value="Validar Cita"></center>
+
+        </form>
+    </aside>
+
+    <section >
+        <article class="parrafo1">
+             <h2>Boris</h2>
+<img src="img/OIP.jpg" alt="" width=300px>
+             <div class="contenido">
+            <p>   Lorem ipsum dolor sit amet consectetur adipiscing elit, phasellus natoque tincidunt faucibus porta dictum mauris integer, at eget ullamcorper orci litora auctor. Commodo bibendum id dictum gravida suscipit ultrices, neque sed cum facilisis morbi integer, sapien velit volutpat nisl ultricies. Elementum purus platea lectus odio posuere leo lacus ac sagittis, mollis curabitur dignissim morbi vulputate sed scelerisque rhoncus.</p>
+            </article>
+            <article class="parrafo2">
+                <h2>felipe</h2>
+   <img src="img/OIP.jpg" alt="" width=300px>
+                <div class="contenido">
+               <p>   Lorem ipsum dolor sit amet consectetur adipiscing elit, phasellus natoque tincidunt faucibus porta dictum mauris integer, at eget ullamcorper orci litora auctor. Commodo bibendum id dictum gravida suscipit ultrices, neque sed cum facilisis morbi integer, sapien velit volutpat nisl ultricies. Elementum purus platea lectus odio posuere leo lacus ac sagittis, mollis curabitur dignissim morbi vulputate sed scelerisque rhoncus.</p>
+               </article>
+               <article class="parrafo3">
+                <h2>Castro</h2>
+   <img src="img/OIP.jpg" alt="" width=300px>
+                <div class="contenido">
+               <p>   Lorem ipsum dolor sit amet consectetur adipiscing elit, phasellus natoque tincidunt faucibus porta dictum mauris integer, at eget ullamcorper orci litora auctor. Commodo bibendum id dictum gravida suscipit ultrices, neque sed cum facilisis morbi integer, sapien velit volutpat nisl ultricies. Elementum purus platea lectus odio posuere leo lacus ac sagittis, mollis curabitur dignissim morbi vulputate sed scelerisque rhoncus.</p>
+               </article>
+
+
+</section>
+
+
+
+
+
+</body>
+
+</html>
